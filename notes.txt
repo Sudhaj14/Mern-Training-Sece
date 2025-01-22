@@ -1,0 +1,2 @@
+two types of data - params and query in get method
+in params we can send only one data ,but in quety we can send multiple data
