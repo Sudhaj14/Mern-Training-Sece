@@ -7,7 +7,7 @@ const { v4 : uuidv4 } = require('uuid') ;
 app.use(express.json());//express middleware for POST method
 
 //connect backend with database
-mongoose.connect("mongodb://localhost:27017/expenses")//returns a promise
+mongoose.connect("mongodb+srv://sudha:<db_password>@cluster0.lcvy5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")//returns a promise
 .then(()=>{
     console.log("Connected to MongoDB")
 })
